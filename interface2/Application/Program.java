@@ -44,6 +44,10 @@ public class Program {
 
             sc.close();
 
+            ContractFileGenerator.saveContractToFile(obj, "contrato_" + obj.getInstallmentsNumbers() + ".txt");
+
+
     }
+
     
 }
